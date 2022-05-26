@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e7e7e7;
+  width: 270px;
+  height: 200px;
+  padding: 10px;
+}
+
+form > div {
+  margin: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+}
